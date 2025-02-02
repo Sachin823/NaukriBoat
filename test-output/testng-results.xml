@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome launched]]>
+    </line>
+    <line>
+      <![CDATA[Updated Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-02T13:50:10 IST" name="Suite" finished-at="2025-02-02T13:50:34 IST" duration-ms="23950">
+    <groups>
+    </groups>
+    <test started-at="2025-02-02T13:50:10 IST" name="Test" finished-at="2025-02-02T13:50:34 IST" duration-ms="23950">
+      <class name="com.naukriPortal.UpdateResumeTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.naukriPortal.UpdateResumeTest@4145bad8]" started-at="2025-02-02T13:50:10 IST" name="setUp" finished-at="2025-02-02T13:50:16 IST" duration-ms="5389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resumeUpdateProcess()[pri:0, instance:com.naukriPortal.UpdateResumeTest@4145bad8]" started-at="2025-02-02T13:50:16 IST" name="resumeUpdateProcess" finished-at="2025-02-02T13:50:34 IST" duration-ms="18058" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Updated Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- resumeUpdateProcess -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:com.naukriPortal.UpdateResumeTest@4145bad8]" started-at="2025-02-02T13:50:34 IST" name="postcondition" finished-at="2025-02-02T13:50:34 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- com.naukriPortal.UpdateResumeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
