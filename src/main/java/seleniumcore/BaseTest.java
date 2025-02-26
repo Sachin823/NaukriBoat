@@ -58,7 +58,7 @@ public abstract class BaseTest {
 	public BaseTest() {
 		prop = new Properties();
 		try {
-			prop.load(new FileInputStream("C:\\Users\\SACHIN\\QA\\FRAMEWORK\\config.properties"));
+			prop.load(new FileInputStream("C:\\Users\\SACHIN\\QA\\WEB_AUTOMATION_FRAMEWORK\\config.properties"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
