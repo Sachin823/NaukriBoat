@@ -25,7 +25,7 @@ public class UpdateResumeTest extends BaseTest{
 		
 		logStep("Update Resume");
 		ProfilePage profilePage= new ProfilePage(driver);
-		profilePage.updateResume(driver,"C:\\Users\\SACHIN\\QA\\FRAMEWORK\\src\\test\\resources\\Sachin.Sharma.Resume.pdf");
+		profilePage.updateResume(driver,"C:\\Users\\SACHIN\\QA\\WEB_AUTOMATION_FRAMEWORK\\src\\test\\resources\\Sachin.Sharma.Resume.pdf");
 		
 		logStep("Logout from Application");
 		LogoutPage logoutPage= new LogoutPage(driver);
